@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow-x: hidden;
+  }
+.main{
+    width: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(to top, rgba(1,0,0,0.5)25%,rgba(0,0,0,0.5)75%), url(v.png);
+    filter: contrast(-190%);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 250px;
+    font-family:  Times New Roman;
+    float: left;
+    padding-top:50px;
+    margin-top: -70px;
+    margin-left: -130px;
+    letter-spacing: 10px;
+}
+
+.menu{
+    width: 650px;
+    float: right;
+    height: 70px;
+    margin-top: 15px;
+    margin-right: -10px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding-right: -900px;
+
+}
+
+ul li{
+    list-style: none;
+    float: right;
+    margin-left: 150px;
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+ul li a{
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left:-60px;
+
+}
+ 
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff; }
+
+.content .par{
+    padding-left: 650px;
+    padding-bottom: 50px;
+    font-family: serif ;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-top: 10px;    
+}
+
+.content h1{
+    font-family: "Times New Roman";
+    font-size: 100px;
+    font-weight: bolder;
+    padding-left: 0px;
+    margin-top: 150px;
+    margin-left: -130px;
+    letter-spacing: -1px;
+
+
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    margin-right: 60px;
+    padding-left: 650px;
+    letter-spacing: 2px;
+    margin-top: -400px;
+    word-spacing: 3px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 390px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;  
+}
+.main1{
+    width: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(to top, rgba(1,0,0,0.5)25%,rgba(0,0,0,0.5)75%), url(v.png);
+    filter: contrast(-190%);
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+    margin-top: 0px;
+}
+.content1{
+    margin: 60px ;
+    color:#ff7200;
+    float: left;
+    margin-right: 100px;
+    font:sans-serif;
+  }
+.content1 h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -50px;
+
+  }
+.content1 p{
+    font-size: 25px;
+    margin-left:60px;
+    text-align: justify;
+    color: white;
+  }
+.content1 h2 {
+    float: right;
+    margin-right: 550px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+ .content1 .par {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left:60px;
+    text-align: justify;
+    color: white;
+}
+.teams h1{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 1px
+}
+.main1 .image{
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 1190px;
+    left: 80px;
+    color: #ff7200;
+    transition: all 0.5s ease-out;
+}
+.main1 .image a img{
+    height: 230px;
+    width: 70px
+    border-radius: 50px;
+    cursor: pointer
+}
+.main1 .image a img{
+    margin-left: 140px;
+    margin-top: 80px
+}
+.main1 .image img{
+    height: 200px;
+    width: 250px
+}
+.main1 .image .parr{
+    position: absolute;
+    margin-left: 580px;
+    font-size: 20px;
+    text-align: center;
+}
+.main1 .image .par{
+    position: absolute;
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.main1 .image .parrr{
+    position: absolute;
+    margin-left: 980px;
+    font-size: 20px;
+    text-align: center;
+}
+.main1 .image .parrrr{
+    position: absolute;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+.main1 .image .parrrrr{
+    position: absolute;
+    margin-left: 550px;
+    font-size: 20px;
+    text-align: center;
+}
+.main1 .image .parrrrrr{
+    position: absolute;
+    margin-left: 960px;
+    font-size: 20px;
+    text-align: center;
+}
+.main2{
+    width: 100%;
+    background: linear-gradient(to top, rgba(1,0,0,0.5)25%,rgba(0,0,0,0.5)75%), url(v.png);
+    filter: contrast(-190%);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    height: 130vh;
+}
+.container{
+    width: 100%;
+    position: center;
+    filter: contrast(100%);
+    background-size: cover;
+    height: 760px;
+    color: #ff7200;
+    opacity: 1000%;
+
+
+}
+.container .boxx{
+    position: center;
+    width: 1240px;
+    height: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 0;
+    background: rgb(255, 250, 250,)
+}
+.container .boxx h1{
+    color: 0;
+    font-size: 100px;
+    margin-left: 370px;
+    margin-top: 0px;
+    color: orange;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 150px;
+    background: rgb(128,128,128,0.7)
+    
+}
+.container .box h1{
+    color:#fff ;
+    margin-left: 50px;
+
+}
+.container .box .par{
+    color: white;
+    font-size:20px ;
+    margin-top:20px;
+    margin-left: 35px;
+}
+
+.box .cn{
+    width: 160px;
+    height: 40px;
+    background: #79F3F7;
+    border: none;
+    margin-right: 75px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 200px;
+    background: rgb(255, 165, 0)
+}
+
+.box .cn a{
+    text-decoration: none;
+    color: #000;  
+}
+.box .cc{
+    width: 160px;
+    height: 40px;
+    background: #79F3F7;
+    border: none;
+    margin-left: 58px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 17px;
+    background: rgb(255, 165, 0);
+    position: absolute;
+    
+}
+.box .cc a:hover{
+    color: red;
+}
+
+.box .cc a{
+    text-decoration: none;
+    color: #000;  
+}
+.box .ca{
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin-right: 85px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 60px;
+    background: rgb(255, 165, 0);
+    transition: 0.4s;
+}
+
+.box .ca a{
+    text-decoration: none;
+    color: #000;  
+}
+.box .ca a:hover{
+    color: red;
+}
+.box .cn:hover{
+    coloer: red;
+}
+.main3{
+    width: 100%;
+    background: linear-gradient(to top, rgba(1,0,0,0.5)25%,rgba(0,0,0,0.5)75%), url(v.png);
+    filter: contrast(-190%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+}
+.main3 .box{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    float: left;
+    margin-top: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: rgb(200,200,200,0.3);
+}
+.main3 .box h1{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 180px;
+    color: white;
+
+}
+.main3 .box h2{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 65px;
+    color: white;
+}
+.main3 .box input{
+    width: 400px;
+    height: 30px;
+    margin-left: 160px;
+    font-family: arial;
+    margin-top: 2px;    
+}
+.main3 .box textarea{
+    width: 700px;
+    height: 220px;
+    margin-left: 50px;
+    font-family: arial;
+    font-size: 15px;
+}
+.box .ce{
+    width: 200px;
+    height: 40px;
+    background: #79F3F7;
+    border: none;
+    margin-right: 340px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    background: rgb(255, 255, 255, 0.5);
+}
+.box .ce a{
+    color: black;
+}
+.box .ce a:hover{
+    color: red;
+}
+.box .center a{
+    text-decoration: none;
+    color: #000; 
+}       
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  margin-top: 280px;
+  margin-left: 1100px;
+  position: absolute;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+
+.wrapper .buttons{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  margin-top: 350px;
+  margin-left: 1100px;
+  position: absolute;
+}
+.wrapper .buttons:hover{
+  width: 200px;
+}
+.wrapper .buttons .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .buttons:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .buttons:nth-child(2):hover .icon{
+  background: blue;
+}
+.wrapper .buttons .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .buttons:hover .icon i{
+  color: #fff;
+}
+.wrapper .buttons span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .buttons:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .buttons:nth-child(2) span{
+  color: blue;
+}
+.mainf{
+    margin:0 auto;
+    padding: 0;
+}
+.mainf{
+    width: 100%;
+    background: grey;
+    filter: contrast(-190%);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.mainf .foot h1{
+    font-size: 20px;
+    position: absolute;
+    left: 100px;
+}
+.mainf .foot i{
+    margin-left: 100px;
+    line-height: 1px;
+    margin-top: 50px
+}
+#space{
+    margin-top: 2px;
+}
+
+.mainf .foot h2{
+    margin-top: 60px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+.mainf .menuf{
+    margin:0px auto;
+    padding: 0px;
+
+}
+.mainf .menuf ul{
+    float: right;
+    margin-right: 100px;
+    margin-top: -20px;
+
+}
+.mainf .menuf ul li a{
+    color: black;
+    
+}
